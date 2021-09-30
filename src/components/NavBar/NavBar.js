@@ -1,7 +1,7 @@
 import React from 'react'
 import "bootswatch/dist/cyborg/bootstrap.min.css";
 import { motion } from 'framer-motion';
-import { Button } from 'react-bootstrap'
+import { Container, Navbar, NavDropdown, Nav } from 'react-bootstrap'
 export default function NavBar() {
     const variants = {
         hidden: {
@@ -23,36 +23,30 @@ export default function NavBar() {
             <motion.nav
                 variants={variants}
                 initial="hidden"
-                animate="show"
-                className="navbar navbar-expand-lg navbar-light bg-primary">
-                <div
-                    class="container-fluid" >
-                    <div class="collapse navbar-collapse" id="navbarColor02">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                <Button variant="link" class="nav-link" href="#">WoR Weekly Gaming Blog</Button>
-                            </li>
-                            <li class="nav-item">
-                                <Button variant="link" class="nav-link" href="#">Contact</Button>
-                            </li>
-                            <li class="nav-item">
-                                <Button variant="link" class="nav-link" href="#">About</Button>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <Button variant="link" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                    aria-haspopup="true" aria-expanded="false">Realms</Button>
-                                <div class="dropdown-menu">
-                                    <Button variant="link" class="dropdown-item" href="#">Magic: the Gathering</Button>
-                                    <Button variant="link" class="dropdown-item" href="#">Role Playing Games</Button>
-                                    <Button variant="link" class="dropdown-item" href="#">Warhammer 40,000</Button>
-                                    <Button variant="link" class="dropdown-item" href="#">Flesh and Blood TCG</Button>
-                                    <Button variant="link" class="dropdown-item" href="#">Pokemon Trading Card Game</Button>
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
+                animate="show">
+                    <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+  
+  <Navbar.Brand href="#home"><img src="pngtiny.png" alt=""></img></Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <Nav.Link href="#features">WoR Weekly Gaming Blog</Nav.Link>
+      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Magic: the Gathering</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">RPG's</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Warhammer 40,000</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Pokemon</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.5">Flesh and Blood TCG</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+    <Nav>
+      <Nav.Link href="#deets">About</Nav.Link>
+      <Nav.Link href="#memes">Contact</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  
+</Navbar>
+                
             </motion.nav>
         </div>
     )
