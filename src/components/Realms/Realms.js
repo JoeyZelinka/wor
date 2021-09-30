@@ -35,10 +35,10 @@ export default function NewWor() {
                 <Card.Body>
                     <Card.Title>Magic: the Gathering</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Enter our Magic: the Gathering realm where you can find our deck builder, blog, 
+                        strategy and information from around the multiverse!
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">Enter</Button>
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
@@ -46,10 +46,10 @@ export default function NewWor() {
                 <Card.Body>
                     <Card.Title>Role Playing Games</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Enter our realm of all things RPG. Our blog covers all the new happenings and orginal content.
+                        Stat roller for Dungeons and Dragons coming soon!
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">Enter</Button>
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
@@ -57,35 +57,23 @@ export default function NewWor() {
                 <Card.Body>
                     <Card.Title>Warhammer 40,000</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                    In the grim darkness of the far future...you know the rest. Our Warhammer 40,000 realm is your final 
+                    destination for all things galaxial war!
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">Coming Soon!</Button>
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="pokemon.jpeg" />
                 <Card.Body>
                     <Card.Title>Pokemon</Card.Title>
+                    <Card.Subtitle>(coming soon)</Card.Subtitle>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Check back for our exclusive Pokemon content and tools!
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">Coming Soon!</Button>
                 </Card.Body>
             </Card>
-            <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="fab.jpeg" />
-                <Card.Body>
-                    <Card.Title>Flesh and Blood TCG</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
-
         </motion.div>
 
     )
