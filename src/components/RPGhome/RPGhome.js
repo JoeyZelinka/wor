@@ -1,13 +1,9 @@
 import React from 'react'
-import "./MtgHome.css";
-import "bootswatch/dist/cyborg/bootstrap.min.css";
-import { Badge, Container, Card, Button } from 'react-bootstrap'
-import { motion } from 'framer-motion';
+import './RPGhome.css'
+import { motion } from 'framer-motion'
+import { Badge, Card, Container, Button, } from 'react-bootstrap'
 
-
-export default function MtgHome() {
-    
-
+export default function RPGhome() {
     const variants = {
         hidden: {
             opacity: 0,
@@ -30,15 +26,15 @@ export default function MtgHome() {
             initial="hidden"
             animate="show"
         className="MtgHome">
-            <h1 className="mtglogo"><img src="mtglogo.png" alt=""></img></h1>
+            <h1 className="rpglogo"><img src="rpglogo.jpeg" alt=""></img></h1>
             <h3 className="head">
                 <Badge bg="primary">World of Realms content:</Badge>
             </h3>
             
             <Container> 
             <div className="cards">
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -48,8 +44,8 @@ export default function MtgHome() {
                         <Button variant="light">Go somewhere</Button>
                     </Card.Body>
                 </Card>
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -59,8 +55,8 @@ export default function MtgHome() {
                         <Button variant="light">Go somewhere</Button>
                     </Card.Body>
                 </Card>
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -70,8 +66,8 @@ export default function MtgHome() {
                         <Button variant="light">Go somewhere</Button>
                     </Card.Body>
                 </Card>
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -89,7 +85,7 @@ export default function MtgHome() {
                     <h3 className="multihead">From Around the Multiverse:</h3>
                     <Container className='multicards'>
                     <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -100,7 +96,7 @@ export default function MtgHome() {
                     </Card.Body>
                 </Card>
                 <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -111,7 +107,7 @@ export default function MtgHome() {
                     </Card.Body>
                 </Card>
                 <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -122,7 +118,7 @@ export default function MtgHome() {
                     </Card.Body>
                 </Card>
                 <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                    <Card.Img variant="top" src="rpgdice.jpeg" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>

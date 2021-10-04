@@ -2,7 +2,7 @@ import "bootswatch/dist/cyborg/bootstrap.min.css";
 import './App.css';
 import NavBar from "./components/NavBar/NavBar";
 import { motion } from "framer-motion"
-import MtgHome from "./components/MtgHome/MtgHome";
+import RPGhome from "./components/RPGhome/RPGhome"
 // import Realms from "./components/Realms/Realms";
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
        transition={{ duration: 3 }} 
       class="header"><img src="pngsmall.png" alt="logo"></img></motion.div>
       <NavBar/>
-      <MtgHome/>
+      <RPGhome/>
     </div>
 
   );
