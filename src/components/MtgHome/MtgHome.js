@@ -1,12 +1,33 @@
 import React from 'react'
 import "./MtgHome.css";
 import "bootswatch/dist/cyborg/bootstrap.min.css";
-import { Badge, Container, Col, Row, Card, Button } from 'react-bootstrap'
+import { Badge, Container, Card, Button } from 'react-bootstrap'
+import { motion } from 'framer-motion';
 
 export default function MtgHome() {
+    const variants = {
+        hidden: {
+            opacity: 0,
+            x: 0,
+            y: 500,
+        },
+        show: {
+            opacity: 1,
+            x: 0,
+            y: 0,
+            transition: {
+                duration: 3,
+                staggerChildren: 0.5
+            }
+        }
+    }
     return (
-        <div className="MtgHome">
-            <h1 className="mtglogo"><img src="mtglogo.png"></img></h1>
+        <motion.div
+        variants={variants}
+            initial="hidden"
+            animate="show"
+        className="MtgHome">
+            <h1 className="mtglogo"><img src="mtglogo.png" alt=""></img></h1>
             <h3 className="head">
                 <Badge bg="primary">World of Realms content:</Badge>
             </h3>
@@ -67,7 +88,7 @@ export default function MtgHome() {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                         </Card.Text>
-                        <Button variant="success">Go somewhere</Button>
+                        <Button variant="dark">Go somewhere</Button>
                     </Card.Body>
                 </Card>
                 <Card bg="light" style={{ width: '18rem' }}>
@@ -78,7 +99,7 @@ export default function MtgHome() {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark">Go somewhere</Button>
                     </Card.Body>
                 </Card>
                 <Card bg="light" style={{ width: '18rem' }}>
@@ -89,7 +110,7 @@ export default function MtgHome() {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                         </Card.Text>
-                        <Button variant="success">Go somewhere</Button>
+                        <Button variant="dark">Go somewhere</Button>
                     </Card.Body>
                 </Card>
                 <Card bg="light" style={{ width: '18rem' }}>
@@ -100,12 +121,12 @@ export default function MtgHome() {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="dark">Go somewhere</Button>
                     </Card.Body>
                 </Card>
                 </Container>
                 </div>
             
-        </div>
+        </motion.div>
     )
 }
