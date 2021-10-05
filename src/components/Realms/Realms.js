@@ -38,7 +38,7 @@ export default function NewWor() {
                         Enter our Magic: the Gathering realm where you can find our deck builder, blog, 
                         strategy and information from around the multiverse!
                     </Card.Text>
-                    <Button variant="primary">Enter</Button>
+                    <Button href="mtghome" variant="primary">Enter</Button>
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
@@ -49,7 +49,7 @@ export default function NewWor() {
                         Enter our realm of all things RPG. Our blog covers all the new happenings and orginal content.
                         Stat roller for Dungeons and Dragons coming soon!
                     </Card.Text>
-                    <Button variant="primary">Enter</Button>
+                    <Button href="rpghome" variant="primary">Enter</Button>
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
