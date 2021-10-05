@@ -1,0 +1,29 @@
+.blogtemplate {
+    padding-top: 50px;
+    background-color: white;
+    color: black;
+    
+    
+
+}
+
+h1 {
+    color:black;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+}
+
+h2 {
+    color:black;
+    font-size: 35px;
+    padding-bottom: 20px;
+    
+}
+
+.byline {
+    color: lightskyblue;
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
