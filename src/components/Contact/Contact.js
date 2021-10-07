@@ -7,14 +7,14 @@ export default function Contact() {
             <br/>
             worldofrealmsmtg@gmail.com
             </a>
-            <br/>
+            {/* <br/>
             <a href=""><img src="instalogo.png" alt=""></img>   
                     @worldofrealms
             </a>
             <a href=""><img src="instalogo.png" alt=""></img>
             @paid2dominate (Joey)
             </a>
-            <br/>
+            <br/> */}
 
 
         </div>
