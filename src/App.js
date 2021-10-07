@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import HomePage from "../src/components/HomePage/HomePage"
 import MtgHome from "../src/components/MtgHome/MtgHome"
 import RPGhome from "../src/components/RPGhome/RPGhome"
+import Contact from "./components/Contact/Contact";
 
 // import Realms from "./components/Realms/Realms";
 function App() {
@@ -16,7 +17,7 @@ function App() {
           animate={{ rotate: 360 }}
           transition={{ duration: 3 }}
           class="header"
-          ><img src="pngsmall.png" alt="logo"></img></motion.div>
+        ><img src="pngsmall.png" alt="logo"></img></motion.div>
         <NavBar />
         <div className="App">
           <Switch>
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/rpghome">
               <RPGhome />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
             {/* <Route path="/worblog">
               <WorBlog />
@@ -44,9 +48,7 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route> */}
+             */}
           </Switch>
         </div>
       </Router>
