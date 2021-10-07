@@ -53,9 +53,10 @@ export default function NewWor() {
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="40k.jpeg" />
+                <Card.Img variant="top" src="40k.jpeg"/>
                 <Card.Body>
                     <Card.Title>Warhammer 40,000</Card.Title>
+                    <Card.Subtitle>(coming sooner)</Card.Subtitle>
                     <Card.Text>
                     In the grim darkness of the far future...you know the rest. Our Warhammer 40,000 realm is your final 
                     destination for all things galaxial war!
