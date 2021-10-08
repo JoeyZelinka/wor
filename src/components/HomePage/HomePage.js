@@ -33,7 +33,7 @@ export default function HomePage() {
             initial="hidden"
             animate="show"
              className="head">
-                <Badge>Welcome to our Realms</Badge>
+                <Badge>Realms:</Badge>
             </motion.h1>
             <Realms />
         </div>
