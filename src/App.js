@@ -8,7 +8,7 @@ import MtgHome from "../src/components/MtgHome/MtgHome"
 import RPGhome from "../src/components/RPGhome/RPGhome"
 import Contact from "./components/Contact/Contact";
 
-// import Realms from "./components/Realms/Realms";
+
 function App() {
   return (
     <div>
