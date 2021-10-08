@@ -14,7 +14,7 @@ export default function Contact() {
             <ListGroup.Item><a href="https://twitter.com/WorldofRealms" target='_blank' rel="noreferrer"><img src="twitter.png" alt=""></img>Follow us on Twitter!</a></ListGroup.Item>
             <ListGroup.Item><a href="/" target='_blank' rel="noreferrer"><img src="arenalogo.jpeg" alt=""></img>WorldofRealms on Magic Arena!</a></ListGroup.Item>
             <ListGroup.Item><a href="/" target='_blank' rel="noreferrer"><img src="ptcgologo.png" alt=""></img>WorldofRealms on Pokemon TCG Online!</a></ListGroup.Item>
-
+      
         </div>
     )
 }

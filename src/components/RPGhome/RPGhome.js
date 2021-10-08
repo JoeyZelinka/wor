@@ -28,7 +28,7 @@ export default function RPGhome() {
         className="MtgHome">
             <h1 className="rpglogo"><img src="rpglogo.jpeg" alt=""></img></h1>
             <h3 className="head">
-                <Badge bg="primary">World of Realms content:</Badge>
+                <Badge bg="primary">From our Realm</Badge>
             </h3>
             
             <Container> 
