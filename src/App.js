@@ -7,7 +7,7 @@ import HomePage from "../src/components/HomePage/HomePage"
 import MtgHome from "../src/components/MtgHome/MtgHome"
 import RPGhome from "../src/components/RPGhome/RPGhome"
 import Contact from "./components/Contact/Contact";
-
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -33,6 +33,9 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
+            <Route path="/about">
+              <About />
+            </Route>
             {/* <Route path="/worblog">
               <WorBlog />
             </Route>
@@ -44,9 +47,6 @@ function App() {
             </Route>
             <Route path="/fabhome">
               <FABHome />
-            </Route>
-            <Route path="/about">
-              <About />
             </Route>
              */}
           </Switch>
