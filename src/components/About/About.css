@@ -1,0 +1,46 @@
+.text {
+    padding-top: 50px;
+    background-color: white;
+    color: black;
+    
+
+    
+    
+
+}
+
+h1 {
+    color:black;
+    font-size: 50px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    
+    
+
+}
+
+
+
+.byline {
+    color: lightskyblue;
+    font-size: 25px;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+h2 {
+    color: lightskyblue;
+    font-size: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}

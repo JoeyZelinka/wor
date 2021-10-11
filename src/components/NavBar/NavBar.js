@@ -2,7 +2,9 @@ import React from 'react'
 import "bootswatch/dist/cyborg/bootstrap.min.css";
 import { motion } from 'framer-motion';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap'
+import "../NavBar/NavBar.css"
 export default function NavBar() {
+
     const variants = {
         hidden: {
             opacity: 0,
