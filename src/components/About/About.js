@@ -1,5 +1,5 @@
 import React from 'react'
-import "../About/About.css"
+// import "../About/About.css"
 import { Container, Row, Col } from 'react-bootstrap'
 
 export default function About() {
