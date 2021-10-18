@@ -3,6 +3,7 @@ import "./MtgHome.css";
 import "bootswatch/dist/cyborg/bootstrap.min.css";
 import { Badge, Container, Card, Button } from 'react-bootstrap'
 import { motion } from 'framer-motion';
+import MTGnav from "./MTGnav";
 
 
 export default function MtgHome() {
@@ -25,11 +26,13 @@ export default function MtgHome() {
         }
     }
     return (
+        
         <motion.div
         variants={variants}
             initial="hidden"
             animate="show"
-        className="MtgHome">
+        className="mtghome">
+            <MTGnav />
             <h1 className="mtglogo"><img src="mtglogo.png" alt=""></img></h1>
             <h3 className="head">
                 <Badge bg="primary">From our Realm</Badge>
@@ -38,14 +41,13 @@ export default function MtgHome() {
             <Container> 
             <div className="cards">
                 <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                    <Card.Img variant="top" src="bestlineinthedeck.png" />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Poetically Aggro</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Joey walks through his favorite Historic deck, Orzhov Humans October 18th, 2021
                         </Card.Text>
-                        <Button variant="light">Go somewhere</Button>
+                        <Button variant="light" href="orzhovhumanspa">Read</Button>
                     </Card.Body>
                 </Card>
                 <Card bg="primary" style={{ width: '18rem' }}>
@@ -81,6 +83,8 @@ export default function MtgHome() {
                         <Button variant="light">Go somewhere</Button>
                     </Card.Body>
                 </Card>
+                
+                
                 </div>
                 </Container>
                 

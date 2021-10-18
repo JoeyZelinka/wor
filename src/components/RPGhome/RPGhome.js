@@ -2,6 +2,7 @@ import React from 'react'
 import './RPGhome.css'
 import { motion } from 'framer-motion'
 import { Badge, Card, Container, Button, } from 'react-bootstrap'
+import RPGnav from './RPGnav'
 
 export default function RPGhome() {
     const variants = {
@@ -25,7 +26,8 @@ export default function RPGhome() {
         variants={variants}
             initial="hidden"
             animate="show"
-        className="MtgHome">
+        className="rpghome">
+            <RPGnav />
             <h1 className="rpglogo"><img src="rpglogo.jpeg" alt=""></img></h1>
             <h3 className="head">
                 <Badge bg="primary">From our Realm</Badge>
