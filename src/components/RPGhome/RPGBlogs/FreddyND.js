@@ -1,14 +1,14 @@
 import React from 'react'
-import '../Blogs/BlogTemplate.css'
+import './RPGBlog.css'
 import { Container, Col, Row } from 'react-bootstrap'
 
-export default function BlogTemplate() {
+export default function FreddyND() {
     return (
         <div>
             <Container>
                 <Row>
                     <Col>
-                        <div className="placeholderblog">
+                        <div className="ndblog">
                             <div className="blogtitle">
                                 <h1>placeholder</h1>
                                 <h2>placeholder</h2>

@@ -7,7 +7,7 @@ export default function OrzhovHumansPA() {
         <Container>
             <Row>
                 <Col>
-                    <div className="mtgblog">
+                    <div className="pablog">
                         <div className="blogtitle">
                             <h1>Poetically Aggro</h1>
                             <h2>Orzhov Historic Humans</h2>
