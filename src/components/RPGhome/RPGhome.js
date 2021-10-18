@@ -36,14 +36,13 @@ export default function RPGhome() {
             <Container> 
             <div className="cards">
                 <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="rpgdice.jpeg" />
+                    <Card.Img variant="top" src="freddy.jpg" />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Natty Dubs</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            Ryan converts Freddy Kreuger to invade your D&D dreams! Full stat sheet and use suggestions! October 16th, 2021
                         </Card.Text>
-                        <Button variant="light">Go somewhere</Button>
+                        <Button variant="light" href="freddynd">Read</Button>
                     </Card.Body>
                 </Card>
                 <Card className="card" bg="primary" style={{ width: '18rem' }}>
