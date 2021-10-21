@@ -61,7 +61,7 @@ export default function NewWor() {
                     In the grim darkness of the far future...you know the rest. Our Warhammer 40,000 realm is your final 
                     destination for all things galaxial war!
                     </Card.Text>
-                    <Button variant="primary">Coming Soon!</Button>
+                    <Button variant="primary" href="whhome">Enter</Button>
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
