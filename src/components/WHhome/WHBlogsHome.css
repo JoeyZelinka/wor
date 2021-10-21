@@ -1,0 +1,10 @@
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content:space-between;
+}
+
+h1 {
+    padding-top: 25px;
+}

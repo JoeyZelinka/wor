@@ -15,6 +15,9 @@ import RPGBlogsHome from "./components/RPGhome/RPGBlogsHome";
 import RPGMultiverse from "./components/RPGhome/RPGmultiverse";
 import OrzhovHumansPA from "./components/MtgHome/MtgBlogs/OrzhovHumansPA";
 import FreddyND from "./components/RPGhome/RPGBlogs/FreddyND";
+import WHhome from "./components/WHhome/WHhome";
+import WHBlogsHome from "./components/WHhome/WHBlogsHome";
+import WHMultiverse from "./components/WHhome/WHMultiverse";
 
 
 function App() {
@@ -68,10 +71,18 @@ function App() {
             <Route path="/freddynd">
               <FreddyND />
             </Route>
-            {/* 
             <Route path="/whhome">
               <WHhome />
             </Route>
+            <Route path="/whmultiverse">
+              <WHMultiverse />
+            </Route>
+            <Route path="/whblogshome">
+              <WHBlogsHome />
+            </Route>
+
+            {/* 
+            
             <Route path="/pokemonhome">
               <PokemonHome />
             </Route>
