@@ -36,14 +36,14 @@ export default function WHhome() {
             
             <Container> 
             <div className="cards">
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="40k.jpeg" />
+            <Card bg="primary" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="ssm.jpg" />
                     <Card.Body>
-                        <Card.Title></Card.Title>
+                        <Card.Title>Bellz of War</Card.Title>
                         <Card.Text>
-                            
+                            Tyler introduces you to the not so wonderful galaxy of Warhammer 40,000. This comprehensive guide will point any novice in the right direction.
                         </Card.Text>
-                        <Button variant="light" href="">Read</Button>
+                        <Button variant="light" href="/whintrobw">Read</Button>
                     </Card.Body>
                 </Card>
                 
