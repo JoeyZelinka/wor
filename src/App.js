@@ -18,6 +18,7 @@ import FreddyND from "./components/RPGhome/RPGBlogs/FreddyND";
 import WHhome from "./components/WHhome/WHhome";
 import WHBlogsHome from "./components/WHhome/WHBlogsHome";
 import WHMultiverse from "./components/WHhome/WHMultiverse";
+import WHintroBW from "./components/WHhome/WHblogs/WHintroBW"
 
 
 function App() {
@@ -79,6 +80,9 @@ function App() {
             </Route>
             <Route path="/whblogshome">
               <WHBlogsHome />
+            </Route>
+            <Route path="/whintrobw">
+              <WHintroBW />
             </Route>
 
             {/* 

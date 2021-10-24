@@ -18,7 +18,7 @@ export default function WHBlogsHome() {
                         <Card.Text>
                             
                         </Card.Text>
-                        <Button variant="light" href="">Read</Button>
+                        <Button variant="light" href="/whintrobw">Read</Button>
                     </Card.Body>
                 </Card>
                 
