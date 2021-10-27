@@ -31,7 +31,7 @@ export default function NewWor() {
             animate="show"
             className="cards">
             <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="thalia.jpeg" />
+                <Card.Img variant="top" src="thalia.png" />
                 <Card.Body>
                     <Card.Title>Magic: the Gathering</Card.Title>
                     <Card.Text>
@@ -42,7 +42,7 @@ export default function NewWor() {
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="rpgdice.jpeg" />
+                <Card.Img variant="top" src="rpgdice.png" />
                 <Card.Body>
                     <Card.Title>Role Playing Games</Card.Title>
                     <Card.Text>
@@ -65,7 +65,7 @@ export default function NewWor() {
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="pokemon.jpeg" />
+                <Card.Img variant="top" src="pokemon.png" />
                 <Card.Body>
                     <Card.Title>Pokemon</Card.Title>
                     <Card.Subtitle>(coming soon)</Card.Subtitle>

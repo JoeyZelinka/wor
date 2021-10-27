@@ -10,7 +10,7 @@ export default function RPGMultiverse() {
                     <h3 className="multihead">From Around the Multiverse:</h3>
                     <Container className='multicards'>
                     <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="rpgdice.jpeg" />
+                    <Card.Img variant="top" src="rpgdice.png" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -20,39 +20,8 @@ export default function RPGMultiverse() {
                         <Button variant="dark">Go somewhere</Button>
                     </Card.Body>
                 </Card>
-                <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="rpgdice.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-                <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="rpgdice.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-                <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="rpgdice.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
+                
+                    
                 </Container>
                 </div>
         </div>

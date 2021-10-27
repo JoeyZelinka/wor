@@ -23,14 +23,14 @@ export default function About() {
                             <div className="profile">
                                 <h2>Player Profiles:</h2>
                                 <br />
-                                <img src="joey.jpeg" alt=""></img>
+                                <img src="joey.jpg" alt=""></img>
                                 <br />
                                 <h3><ins>Joey Zelinka</ins></h3>
                                 <p>Title: The Final Boss </p>
                                 <p>Games: Magic: the Gathering, Warhammer 40,000, D&D 2E, PTCGO </p>
                                 <p>Social: @paid2dominate  on Instagram</p>
                                 <br />
-                                <img src="ryan.jpeg" alt=""></img>
+                                <img src="ryan.jpg" alt=""></img>
                                 <br />
                                 <h3><ins>Ryan Aspinall</ins></h3>
                                 <p>Title: The Man, the Myth, the Legend  </p>
