@@ -40,6 +40,16 @@ export default function MtgHome() {
             
             <Container> 
             <div className="cards">
+            <Card bg="primary" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="oohafter.png" />
+                    <Card.Body>
+                        <Card.Title>Poetically Aggro</Card.Title>
+                        <Card.Text>
+                            Ever wonder what your choice of board wipe says about you? We don't care we're going to tell you anyway. October 27th, 2021
+                        </Card.Text>
+                        <Button variant="light" href="orzhovhumanspa">Read</Button>
+                    </Card.Body>
+                </Card>
                 <Card bg="primary" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="bestlineinthedeck.png" />
                     <Card.Body>
