@@ -50,39 +50,7 @@ export default function MtgHome() {
                         <Button variant="light" href="orzhovhumanspa">Read</Button>
                     </Card.Body>
                 </Card>
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="light">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="light">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="light">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
+                
                 
                 
                 </div>
@@ -93,7 +61,7 @@ export default function MtgHome() {
                     <h3 className="multihead">From Around the Multiverse:</h3>
                     <Container className='multicards'>
                     <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
+                    <Card.Img variant="top" src="" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -103,39 +71,7 @@ export default function MtgHome() {
                         <Button variant="dark">Go somewhere</Button>
                     </Card.Body>
                 </Card>
-                <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-                <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-                <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="thalia.jpeg" />
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="dark">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
+                
                 </Container>
                 </div>
             
