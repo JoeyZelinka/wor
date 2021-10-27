@@ -11,7 +11,7 @@ export default function WHMultiverse() {
                     <h3 className="multihead">From Around the Multiverse:</h3>
                     <Container className='multicards'>
                     <Card bg="light" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="40k.jpeg" />
+                    <Card.Img variant="top" src="40k.png" />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>

@@ -53,7 +53,7 @@ export default function NewWor() {
                 </Card.Body>
             </Card>
             <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="40k.jpeg"/>
+                <Card.Img variant="top" src="40k.png"/>
                 <Card.Body>
                     <Card.Title>Warhammer 40,000</Card.Title>
                     
