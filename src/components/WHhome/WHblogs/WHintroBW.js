@@ -1,10 +1,11 @@
 import React from 'react'
 import '../WHblogs/WHblog.css'
 import { Container, Col, Row } from 'react-bootstrap'
-
+import WHnav from '../WHnav'
 export default function WHintroBW() {
     return (
         <div>
+            <WHnav />
             <Container>
                 <Row>
                     <Col>

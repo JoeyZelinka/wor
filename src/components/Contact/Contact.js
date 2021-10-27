@@ -14,7 +14,7 @@ export default function Contact() {
             <ListGroup.Item><a href="https://www.youtube.com/channel/UCE4YaUDAPxTer0zXK6Volmg" target='_blank' rel="noreferrer"><img src="youtube.png" alt=""></img>Like & Subscribe on YouTube</a></ListGroup.Item>
             <ListGroup.Item><a href="https://www.facebook.com/worldofrealms/" target='_blank' rel="noreferrer"><img src="fb.png" alt=""></img>Check us out on Facebook!</a></ListGroup.Item>
             <ListGroup.Item><a href="https://twitter.com/WorldofRealms" target='_blank' rel="noreferrer"><img src="twitter.png" alt=""></img>Follow us on Twitter!</a></ListGroup.Item>
-            <ListGroup.Item><a href="/" target='_blank' rel="noreferrer"><img src="arenalogo.jpeg" alt=""></img>Screen Name: WorldofRealms on Magic Arena!</a></ListGroup.Item>
+            <ListGroup.Item><a href="/" target='_blank' rel="noreferrer"><img src="arenalogo.jpg" alt=""></img>Screen Name: WorldofRealms on Magic Arena!</a></ListGroup.Item>
             <ListGroup.Item><a href="/" target='_blank' rel="noreferrer"><img src="ptcgologo.png" alt=""></img>Screen Name: WorldofRealms on Pokemon TCG Online!</a></ListGroup.Item>
             </div>
             

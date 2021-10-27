@@ -1,10 +1,11 @@
 import React from 'react'
 import './RPGBlog.css'
 import { Container, Col, Row } from 'react-bootstrap'
-
+import RPGnav from '../RPGnav'
 export default function FreddyND() {
     return (
         <div>
+            <RPGnav />
             <Container>
                 <Row>
                     <Col>
