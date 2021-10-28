@@ -34,7 +34,17 @@ export default function RPGhome() {
             </h3>
             
             <Container>
-             <div className="cards">   
+             <div className="cards">
+             <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="poketrainerscard.png" />
+                    <Card.Body>
+                        <Card.Title>Pokemon RPG</Card.Title>
+                        <Card.Text>
+                             Tyler laterals over from 40K to deliver an introductory guide on all thing Pokemon RPG. To call it comprehensive is putting it lightly. October 27th, 2021
+                        </Card.Text>
+                        <Button variant="light" href="pokerpg">Read</Button>
+                    </Card.Body>
+                </Card>   
             <Card className="card" bg="primary" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="pirate.png" />
                     <Card.Body>
@@ -56,7 +66,7 @@ export default function RPGhome() {
                         <Button variant="light" href="freddynd">Read</Button>
                     </Card.Body>
                 </Card>
-                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                {/* <Card className="card" bg="primary" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="freddy.jpg" />
                     <Card.Body>
                         <Card.Title>Natty Dubs</Card.Title>
@@ -65,7 +75,7 @@ export default function RPGhome() {
                         </Card.Text>
                         <Button variant="light" href="freddynd">Read</Button>
                     </Card.Body>
-                </Card>
+                </Card> */}
                 
                 </div>
                 </Container>
