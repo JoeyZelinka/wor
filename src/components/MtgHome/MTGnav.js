@@ -8,7 +8,7 @@ export default function MTGnav() {
                 <Container>
                     <Navbar.Brand href="mtgblogshome">WoR MtG Blogs</Navbar.Brand>
                     <Navbar.Brand href="mtgmultiverse">Around the Multiverse</Navbar.Brand>
-                    <Navbar.Brand href="https://flamboyant-poitras-11a987.netlify.app/" target="_blank">WoR Deck Builder</Navbar.Brand>
+                    <Navbar.Brand href="https://wormtgdb.netlify.app/" target="_blank">WoR Deck Builder(beta)</Navbar.Brand>
                     <Navbar.Brand href="mtghome">Meta(coming soon)</Navbar.Brand>
                 </Container>
             </Navbar>
