@@ -10,6 +10,25 @@ export default function WoRblog() {
                     <Col>
                                 <h1>World of Realms Weekly Blog</h1>
                         <div className="worblog">
+                            <div className="november1">
+                                <h2>The Week of 11/1</h2>
+                                <div className="byline">By Joey Zelinka October 31, 2021</div>
+                                <p>We have officially come out of beta and worldofrealms.com has officially launched! I’ve finally been able to look up from the code (yes, I coded this entire site from a blank compiler) long enough to see that WE HAVE A SITE! The three open Realms are steadily pumping out content and everything is moving along nicely. A quick recap of some happenings from around the multiverse…Crimson Vow spoilers have hit (I’m loving yet ANOTHER Thalia reprint)! ITC So Cal results have caused rumblings for an irrational banning in Warhammer 40,000.</p>
+                                <p>I’ll be writing a primer for Mono-White Aggro in Standard. The least oppressive deck that everyone on Facebook likes to complain about. If all goes to plan, I have a special guest writer (a well-known member of the Atlanta Magic community) coming on to talk about some Crimson Vow draft strategy. Stay tuned.</p>
+                                <p>Tyler will be bringing “Faction Introduction: Imperial Guard” to Bellz of War in the 40k Realm this week. You can rest assured knowing that by the end of his thorough introduction, you will know all the things Imperial Guard. This will kick off a series introducing all factions one by one. Tyler is insisting on starting with the Imperium but, whatever XENOS FOREVER!</p>
+                                <p>Ooooooohhhhh the RPG Realm has me most excited this week. The beloved Mr. L has submitted his first blog post for World of Realms! Mr. L is a dedicated gamer with decades of DM experience. He’s written a masterpiece detailing how he prepares for an RPG campaign. Ryan is bringing a couple opinion pieces this week. He’s going to delve into the recent D&D/Magic: the Gathering crossover as well as the move Pathfinder has made to launch its own version of D&D Beyond.</p>
+                                <p>The plan is to keep it coming! Let us know if there is something you would like to see!</p>
+                                <p>So, check back often and stay awhile…</p>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            <Container>
+                <Row>
+                    <Col>
+                                <h1>World of Realms Weekly Blog</h1>
+                        <div className="worblog">
                             <div className="october25">
                                 <h2>The Week of 10/25</h2>
                                 <div className="byline">By Joey Zelinka October 24, 2021</div>
