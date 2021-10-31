@@ -66,16 +66,7 @@ export default function RPGhome() {
                         <Button variant="light" href="pokerpg">Read</Button>
                     </Card.Body>
                 </Card>   
-            <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="pirate.png" />
-                    <Card.Body>
-                        <Card.Title>Natty Dubs</Card.Title>
-                        <Card.Text>
-                             Ryan brings us D&D on the high seas! Pirates: a D&D One Shot (5e). A complete tutorial with everything you need to run this adventure! October 25th, 2021
-                        </Card.Text>
-                        <Button variant="light" href="freddynd">Read</Button>
-                    </Card.Body>
-                </Card>     
+                
             
                 
             
