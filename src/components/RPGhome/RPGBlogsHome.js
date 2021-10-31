@@ -11,6 +11,27 @@ export default function RPGBlogsHome() {
                 <h1>World of Realms RPG Blogs</h1>
                 <div className="cards">
                     <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="myersstat.png" />
+                        <Card.Body>
+                            <Card.Title>Natty Dubs</Card.Title>
+                            <Card.Text>
+                            We're wrapping up Spooky Saturdays with the "King of Halloween", Michael Myers! October 30th, 2021
+                            </Card.Text>
+                            
+                            <Button variant="light" href="freddynd">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="40k.png" />
+                        <Card.Body>
+                            <Card.Title>Natty Dubs</Card.Title>
+                            <Card.Text>
+                                Ryan converts my favorite Tau rebel...Commander Farsight for D&D play! Full stat sheet and breakdown. October 29th, 2021
+                            </Card.Text>
+                            <Button variant="light" href="freddynd">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="poketrainerscard.png" />
                         <Card.Body>
                             <Card.Title>Pokemon RPG</Card.Title>
@@ -30,7 +51,7 @@ export default function RPGBlogsHome() {
                             <Button variant="light" href="freddynd">Read</Button>
                         </Card.Body>
                     </Card>
-                    <Card className="cards" bg="primary" style={{ width: '18rem' }}>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="jasonvorhees.png" />
                         <Card.Body>
                             <Card.Title>Natty Dubs</Card.Title>

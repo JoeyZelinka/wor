@@ -36,6 +36,27 @@ export default function RPGhome() {
             <Container>
              <div className="cards">
              <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="myersstat.png" />
+                        <Card.Body>
+                            <Card.Title>Natty Dubs</Card.Title>
+                            <Card.Text>
+                            We're wrapping up Spooky Saturdays with the "King of Halloween", Michael Myers! October 30th, 2021
+                            </Card.Text>
+                            
+                            <Button variant="light" href="freddynd">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="40k.png" />
+                        <Card.Body>
+                            <Card.Title>Natty Dubs</Card.Title>
+                            <Card.Text>
+                                Ryan converts my favorite Tau rebel...Commander Farsight for D&D play! Full stat sheet and breakdown. October 29th, 2021
+                            </Card.Text>
+                            <Button variant="light" href="freddynd">Read</Button>
+                        </Card.Body>
+                    </Card>
+             <Card className="card" bg="primary" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="poketrainerscard.png" />
                     <Card.Body>
                         <Card.Title>Pokemon RPG</Card.Title>
@@ -56,26 +77,8 @@ export default function RPGhome() {
                     </Card.Body>
                 </Card>     
             
-                <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="jasonvorhees.png" />
-                    <Card.Body>
-                        <Card.Title>Natty Dubs</Card.Title>
-                        <Card.Text>
-                            Jason Vorhees gets a D&D makeover! It doesn't matter how fast you run! He's going to get you! October 23rd, 2021
-                        </Card.Text>
-                        <Button variant="light" href="freddynd">Read</Button>
-                    </Card.Body>
-                </Card>
-                {/* <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="freddy.jpg" />
-                    <Card.Body>
-                        <Card.Title>Natty Dubs</Card.Title>
-                        <Card.Text>
-                            Ryan converts Freddy Kreuger to invade your D&D dreams! Full stat sheet and use suggestions! October 16th, 2021
-                        </Card.Text>
-                        <Button variant="light" href="freddynd">Read</Button>
-                    </Card.Body>
-                </Card> */}
+                
+            
                 
                 </div>
                 </Container>

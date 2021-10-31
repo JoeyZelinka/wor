@@ -10,7 +10,7 @@ export default function WoRblog() {
                     <Col>
                                 <h1>World of Realms Weekly Blog</h1>
                         <div className="worblog">
-                            <div className="inaugural">
+                            <div className="october25">
                                 <h2>The Week of 10/25</h2>
                                 <div className="byline">By Joey Zelinka October 24, 2021</div>
                                 <p>Blog number two. We’re off and running. We’ve added more content creators to the roster, and we are opening another Realm this coming week. Exciting stuff so let’s get into it.</p>

@@ -29,7 +29,7 @@ export default function WHhome() {
             animate="show"
         className="whhome">
             <WHnav />
-            <h1 className="whlogo"><img src="whlogo.png" alt=""></img></h1>
+            <h1 className="whlogo"><img src="whlogo.jpg" alt=""></img></h1>
             <h3 className="head">
                 <Badge bg="primary">From our Realm</Badge>
             </h3>
