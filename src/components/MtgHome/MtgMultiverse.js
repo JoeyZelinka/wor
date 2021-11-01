@@ -10,6 +10,17 @@ export default function MtgMultiverse() {
             <div className="multiverse">
                 <h3 className="multihead">From Around the Multiverse:</h3>
                 <Container className='multicards'>
+                <Card bg="light" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="scginv.png" />
+                        <Card.Body>
+                            <Card.Title>Star City Games:</Card.Title>
+                            <Card.Text>
+                            Deck Lists from the SCG Invitational!
+                            </Card.Text>
+                            <p>November 1st, 2021</p>
+                            <Button variant="dark" href="https://old.starcitygames.com/decks/Star_City_Games_Invitational/2021-10-31_standard_Roanoke_VA_US/1/?_ga=2.174100001.246714356.1635791118-156870451.1635522885" target="_blank">Head to SCG!</Button>
+                        </Card.Body>
+                    </Card>
                     <Card bg="light" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="rileytreatssite.jpg" />
                         <Card.Body>

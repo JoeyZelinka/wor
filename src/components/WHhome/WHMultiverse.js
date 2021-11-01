@@ -12,6 +12,17 @@ export default function WHMultiverse() {
                     <h3 className="multihead">From Around the Multiverse:</h3>
                     <Container className='multicards'>
                     <Card bg="light" style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="whprev.jpg" />
+                <Card.Body>
+                        <Card.Title>Warhammer-Community:</Card.Title>
+                        <Card.Text>
+                        The Next Battle Box and Codexes for Warhammer 40,000
+                        </Card.Text>
+                        <p>October 30th, 2021</p>
+                        <Button variant="dark" href="https://www.warhammer-community.com/2021/10/30/warhammer-day-2021-take-the-fight-to-terra-itself-with-the-next-battle-box-and-codexes-for-warhammer-40000/" target="_blank">Head to WH-Community!</Button>
+                    </Card.Body>
+                </Card>
+                    <Card bg="light" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="spikebitspic.jpg" />
                 <Card.Body>
                         <Card.Title>SpikeyBits:</Card.Title>
