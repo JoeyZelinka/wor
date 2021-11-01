@@ -7,7 +7,7 @@ import MTGnav from "./MTGnav";
 
 
 export default function MtgHome() {
-    
+
 
     const variants = {
         hidden: {
@@ -26,50 +26,62 @@ export default function MtgHome() {
         }
     }
     return (
-        
+
         <motion.div
-        variants={variants}
+            variants={variants}
             initial="hidden"
             animate="show"
-        className="mtghome">
+            className="mtghome">
             <MTGnav />
             <h1 className="mtglogo"><img src="mtglogo.png" alt=""></img></h1>
             <h3 className="head">
                 <Badge bg="primary">From our Realm</Badge>
             </h3>
-            
-            <Container> 
-            <div className="cards">
-            <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="oohafter.png" />
-                    <Card.Body>
-                        <Card.Title>Poetically Aggro</Card.Title>
-                        <Card.Text>
-                            Ever wonder what your choice of board wipe says about you? We don't care we're going to tell you anyway. October 27th, 2021
-                        </Card.Text>
-                        <Button variant="light" href="orzhovhumanspa">Read</Button>
-                    </Card.Body>
-                </Card>
-                <Card bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="bestlineinthedeck.png" />
-                    <Card.Body>
-                        <Card.Title>Poetically Aggro</Card.Title>
-                        <Card.Text>
-                            Joey walks through his favorite Historic deck, Orzhov Humans October 18th, 2021
-                        </Card.Text>
-                        <Button variant="light" href="orzhovhumanspa">Read</Button>
-                    </Card.Body>
-                </Card>
-                
-                
-                
-                </div>
-                </Container>
-                
 
-                <div className="multiverse">
-                    <h3 className="multihead">From Around the Multiverse:</h3>
-                    <Container className='multicards'>
+            <Container>
+                <div className="cards">
+                    <Card bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="oohafter.png" />
+                        <Card.Body>
+                            <Card.Title>Poetically Aggro</Card.Title>
+                            <Card.Text>
+                                Ever wonder what your choice of board wipe says about you? We don't care we're going to tell you anyway. October 27th, 2021
+                            </Card.Text>
+                            <Button variant="light" href="orzhovhumanspa">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="bestlineinthedeck.png" />
+                        <Card.Body>
+                            <Card.Title>Poetically Aggro</Card.Title>
+                            <Card.Text>
+                                Joey walks through his favorite Historic deck, Orzhov Humans October 18th, 2021
+                            </Card.Text>
+                            <Button variant="light" href="orzhovhumanspa">Read</Button>
+                        </Card.Body>
+                    </Card>
+
+
+
+                </div>
+            </Container>
+
+
+            <div className="multiverse">
+                <h3 className="multihead">From Around the Multiverse:</h3>
+                <Container className='multicards'>
+
+                    <Card bg="light" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="scginv.png" />
+                        <Card.Body>
+                            <Card.Title>Star City Games:</Card.Title>
+                            <Card.Text>
+                                Deck Lists from the SCG Invitational!
+                            </Card.Text>
+                            <p>November 1st, 2021</p>
+                            <Button variant="dark" href="https://old.starcitygames.com/decks/Star_City_Games_Invitational/2021-10-31_standard_Roanoke_VA_US/1/?_ga=2.174100001.246714356.1635791118-156870451.1635522885" target="_blank">Head to SCG!</Button>
+                        </Card.Body>
+                    </Card>
                     <Card bg="light" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="rileytreatssite.jpg" />
                         <Card.Body>
@@ -92,21 +104,11 @@ export default function MtgHome() {
                             <Button variant="dark" href="https://www.mtggoldfish.com/articles/innistrad-crimson-vow-spoilers-october-28-dracula-blood-cleave-training" target="_blank">Head to MTGGoldfish!</Button>
                         </Card.Body>
                     </Card>
-                    <Card bg="light" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="izzetdragons.jpg" />
-                        <Card.Body>
-                            <Card.Title>Star City Games:</Card.Title>
-                            <Card.Text>
-                            Izzet Dragons And Four-Color Blink Are The Decks To Register At The SCG Invitational 
-                            </Card.Text>
-                            <p>October 27th, 2021</p>
-                            <Button variant="dark" href="https://articles.starcitygames.com/premium/izzet-dragons-and-four-color-blink-yorion-are-the-decks-to-register-at-the-scg-invitational-at-scg-con/" target="_blank">Head to SCG!</Button>
-                        </Card.Body>
-                    </Card>
-                
+
+
                 </Container>
-                </div>
-            
+            </div>
+
         </motion.div>
     )
 }
