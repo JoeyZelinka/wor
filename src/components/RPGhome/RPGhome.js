@@ -23,26 +23,37 @@ export default function RPGhome() {
     }
     return (
         <motion.div
-        variants={variants}
+            variants={variants}
             initial="hidden"
             animate="show"
-        className="rpghome">
+            className="rpghome">
             <RPGnav />
             <h1 className="rpglogo"><img src="rpglogo.png" alt=""></img></h1>
             <h3 className="head">
                 <Badge bg="primary">From our Realm</Badge>
             </h3>
-            
+
             <Container>
-             <div className="cards">
-             <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                <div className="cards">
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="rpgdice.png" />
+                        <Card.Body>
+                            <Card.Title>How I Prep for an RPG Campaign</Card.Title>
+                            <Card.Text>
+                                Our very own Mr. L, a DM with decades of experience, maps out how he preps for an RPG campaign. November 3rd, 2021
+                            </Card.Text>
+
+                            <Button variant="light" href="rpgready">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="myersstat.png" />
                         <Card.Body>
                             <Card.Title>Natty Dubs</Card.Title>
                             <Card.Text>
-                            We're wrapping up Spooky Saturdays with the "King of Halloween", Michael Myers! October 30th, 2021
+                                We're wrapping up Spooky Saturdays with the "King of Halloween", Michael Myers! October 30th, 2021
                             </Card.Text>
-                            
+
                             <Button variant="light" href="freddynd">Read</Button>
                         </Card.Body>
                     </Card>
@@ -56,28 +67,19 @@ export default function RPGhome() {
                             <Button variant="light" href="freddynd">Read</Button>
                         </Card.Body>
                     </Card>
-             <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="poketrainerscard.png" />
-                    <Card.Body>
-                        <Card.Title>Pokemon RPG</Card.Title>
-                        <Card.Text>
-                             Tyler laterals over from 40K to deliver an introductory guide on all thing Pokemon RPG. To call it comprehensive is putting it lightly. October 27th, 2021
-                        </Card.Text>
-                        <Button variant="light" href="pokerpg">Read</Button>
-                    </Card.Body>
-                </Card>   
-                
-            
-                
-            
-                
-                </div>
-                </Container>
-                
+                    
 
-                <div className="multiverse">
-                    <h3 className="multihead">From Around the Multiverse:</h3>
-                    <Container className='multicards'>
+
+
+
+
+                </div>
+            </Container>
+
+
+            <div className="multiverse">
+                <h3 className="multihead">From Around the Multiverse:</h3>
+                <Container className='multicards'>
                     <Card bg="light" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="gruumsh.jpg" />
                         <Card.Body>
@@ -95,7 +97,7 @@ export default function RPGhome() {
                         <Card.Body>
                             <Card.Title>En World:</Card.Title>
                             <Card.Text>
-                            There’s a TOMB RAIDER RPG Coming!
+                                There’s a TOMB RAIDER RPG Coming!
 
                             </Card.Text>
                             <p>October 31st, 2021</p>
@@ -114,10 +116,10 @@ export default function RPGhome() {
                             <Button variant="dark" href="https://www.wargamer.com/pathfinder/nexus-launch-dnd-beyond" target="_blank">Head to Wargamer!</Button>
                         </Card.Body>
                     </Card>
-                
+
                 </Container>
-                </div>
-            
+            </div>
+
         </motion.div>
     )
 }

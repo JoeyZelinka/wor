@@ -28,3 +28,7 @@ h2 {
     
 }
 
+.spellbook {
+    display:flex;
+    justify-content: center;
+}

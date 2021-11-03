@@ -20,6 +20,7 @@ import WHBlogsHome from "./components/WHhome/WHBlogsHome";
 import WHMultiverse from "./components/WHhome/WHMultiverse";
 import WHintroBW from "./components/WHhome/WHblogs/WHintroBW"
 import PokeRPG from "./components/RPGhome/RPGBlogs/PokeRPG";
+import RPGready from "./components/RPGhome/RPGBlogs/RPGready"
 
 function App() {
 
@@ -86,6 +87,9 @@ function App() {
             </Route>
             <Route path="/pokerpg">
               <PokeRPG />
+            </Route>
+            <Route path="/rpgready">
+              <RPGready />
             </Route>
 
             {/* 

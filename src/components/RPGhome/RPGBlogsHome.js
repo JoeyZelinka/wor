@@ -11,13 +11,24 @@ export default function RPGBlogsHome() {
                 <h1>World of Realms RPG Blogs</h1>
                 <div className="cards">
                     <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="rpgdice.png" />
+                        <Card.Body>
+                            <Card.Title>How I Prep for an RPG Campaign</Card.Title>
+                            <Card.Text>
+                                Our very own Mr. L, a DM with decades of experience, maps out how he preps for an RPG campaign. November 3rd, 2021
+                            </Card.Text>
+
+                            <Button variant="light" href="rpgready">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="myersstat.png" />
                         <Card.Body>
                             <Card.Title>Natty Dubs</Card.Title>
                             <Card.Text>
-                            We're wrapping up Spooky Saturdays with the "King of Halloween", Michael Myers! October 30th, 2021
+                                We're wrapping up Spooky Saturdays with the "King of Halloween", Michael Myers! October 30th, 2021
                             </Card.Text>
-                            
+
                             <Button variant="light" href="freddynd">Read</Button>
                         </Card.Body>
                     </Card>
