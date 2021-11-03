@@ -10,7 +10,7 @@ export default function RPGMultiverse() {
                 <h3 className="multihead">From Around the Multiverse:</h3>
                 <Container className='multicards'>
                     <Card bg="light" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="pathfinder.jpg" />
+                        <Card.Img variant="top" src="gruumsh.jpg" />
                         <Card.Body>
                             <Card.Title>Bell of Lost Souls:</Card.Title>
                             <Card.Text>
