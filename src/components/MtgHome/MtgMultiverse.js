@@ -11,6 +11,18 @@ export default function MtgMultiverse() {
                 <h3 className="multihead">From Around the Multiverse:</h3>
                 <Container className='multicards'>
                 <Card bg="light" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="arenalogo.jpg" />
+                        <Card.Body>
+                            <Card.Title>MTGGoldfish Video:</Card.Title>
+                            <Card.Text>
+                            Historic 101: Orzhov Zombies
+                            TheAsianAvenger gives Zombies a try in Historic!
+                            </Card.Text>
+                            <p>November 5th, 2021</p>
+                            <Button variant="dark" href="https://www.mtggoldfish.com/articles/historic-101-orzhov-zombies" target="_blank">Head to MTGGoldfish!</Button>
+                        </Card.Body>
+                    </Card>
+                <Card bg="light" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="scginv.png" />
                         <Card.Body>
                             <Card.Title>Star City Games:</Card.Title>

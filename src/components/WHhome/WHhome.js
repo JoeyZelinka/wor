@@ -67,6 +67,18 @@ export default function WHhome() {
                 <div className="multiverse">
                     <h3 className="multihead">From Around the Multiverse:</h3>
                     <Container className='multicards'>
+                    <Card bg="light" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="shooter40k.jpg" />
+                        <Card.Body>
+                            <Card.Title>Wargamer:</Card.Title>
+                            <Card.Text>
+                            Games Workshop will pay you to be pedantic about Warhammer rules
+
+                            </Card.Text>
+                            <p>November 4th, 2021</p>
+                            <Button variant="dark" href="https://www.wargamer.com/warhammer-40k/games-workshop-job-rules-editor" target="_blank">Head to Wargamer!</Button>
+                        </Card.Body>
+                    </Card>
                         <Card bg="light" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="whprev.jpg" />
                             <Card.Body>
@@ -89,17 +101,7 @@ export default function WHhome() {
                                 <Button variant="dark" href="https://spikeybits.com/2021/10/counterfeiting-games-workshop-is-so-hot-right-now.html" target="_blank">Head to SpikeyBits!</Button>
                             </Card.Body>
                         </Card>
-                        <Card bg="light" style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="sisters.jpg" />
-                            <Card.Body>
-                                <Card.Title>Bell of Lost Souls:</Card.Title>
-                                <Card.Text>
-                                    Warhammer 40K: A Closer Look at Sororitas Novitiates
-                                </Card.Text>
-                                <p>October 29th, 2021</p>
-                                <Button variant="dark" href="https://www.belloflostsouls.net/2021/10/warhammer-40k-a-closer-look-at-sororitas-novitiates.html" target="_blank">Head to BoLS!</Button>
-                            </Card.Body>
-                        </Card>
+                        
 
                     </Container>
                 </div>
