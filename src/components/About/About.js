@@ -36,6 +36,18 @@ export default function About() {
                                 <p>Title: The Man, the Myth, the Legend  </p>
                                 <p>Games: D&D 2E, D&D 5E, various RPG's </p>
                                 <br />
+                                <img src="tyler.jpg" alt=""></img>
+                                <br />
+                                <h3><ins>Tyler Leavitt</ins></h3>
+                                <p>Title: The Silent Assasin</p>
+                                <p>Games: Warhammer 40,000 & Fantasy, Legend of the Five Rings RPG and Pokemon RPG </p>
+                                <br />
+                                <img src="mrl.jpg" alt=""></img>
+                                <br />
+                                <h3><ins>Mr. L</ins></h3>
+                                <p>Title: OG (Original Gamer)</p>
+                                <p>Games: Everything. Seriously, you can't even get this guy a game as a gift because he already has it.</p>
+                                <br />
                             </div>
                         </div>
                     </Col>
