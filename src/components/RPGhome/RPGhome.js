@@ -80,6 +80,17 @@ export default function RPGhome() {
             <div className="multiverse">
                 <h3 className="multihead">From Around the Multiverse:</h3>
                 <Container className='multicards'>
+                <Card bg="light" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="roll20con2021.png" />
+                        <Card.Body>
+                            <Card.Title>Bell of Lost Souls:</Card.Title>
+                            <Card.Text>
+                            D&D: Strixhaven Preview Coming Next Week At Roll20 Con
+                            </Card.Text>
+                            <p>November 5th, 2021</p>
+                            <Button variant="dark" href="https://www.belloflostsouls.net/2021/11/dd-strixhaven-preview-coming-next-week-at-roll20-con.html" target="_blank">Head to BoLS!</Button>
+                        </Card.Body>
+                    </Card>
                     <Card bg="light" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="gruumsh.jpg" />
                         <Card.Body>
@@ -104,18 +115,7 @@ export default function RPGhome() {
                             <Button variant="dark" href="https://www.enworld.org/threads/there%E2%80%99s-a-tomb-raider-rpg-coming.683637/" target="_blank">Head to En World!</Button>
                         </Card.Body>
                     </Card>
-                    <Card bg="light" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="pathfinder.jpg" />
-                        <Card.Body>
-                            <Card.Title>Wargamer:</Card.Title>
-                            <Card.Text>
-                                Pathfinder launches its own version of D&D Beyond
-
-                            </Card.Text>
-                            <p>October 27th, 2021</p>
-                            <Button variant="dark" href="https://www.wargamer.com/pathfinder/nexus-launch-dnd-beyond" target="_blank">Head to Wargamer!</Button>
-                        </Card.Body>
-                    </Card>
+                    
 
                 </Container>
             </div>
