@@ -32,7 +32,7 @@ export default function NavBar() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="worblog">WoR Weekly Gaming Blog</Nav.Link>
+      {/* <Nav.Link href="worblog">WoR Weekly Gaming Blog</Nav.Link> */}
       <NavDropdown title="Realms" id="collasible-nav-dropdown">
         <NavDropdown.Item href="mtghome">Magic: the Gathering</NavDropdown.Item>
         <NavDropdown.Item href="rpghome">RPG's</NavDropdown.Item>
