@@ -11,6 +11,17 @@ export default function WHBlogsHome() {
             <Container>
                 <h1>World of Realms 40k Blogs</h1>
                 <div className="cards">
+                <Card bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="ssm.jpg" />
+                        <Card.Body>
+                            <Card.Title>Bellz of War</Card.Title>
+                            <Card.Text>
+                                Warhammer 40k: The Astartes Militarum.
+                                An introduction into all things Imperial Guard. Tyler gives solid suggestions for lists to start with.
+                            </Card.Text>
+                            <Button variant="light" href="/whintrobw">Read</Button>
+                        </Card.Body>
+                    </Card>
                     <Card bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="ssm.jpg" />
                         <Card.Body>
