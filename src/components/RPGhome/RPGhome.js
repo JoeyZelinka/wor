@@ -35,6 +35,17 @@ export default function RPGhome() {
 
             <Container>
                 <div className="cards">
+                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="rpgdice.png" />
+                        <Card.Body>
+                            <Card.Title>We Put the Pain in Campaign</Card.Title>
+                            <Card.Text>
+                                This is the narrative that follows our adventurers in a D&D 2E Campaign in Greyhawk. Mr. L November 11th, 2021
+                            </Card.Text>
+
+                            <Button variant="light" href="campaign">Read</Button>
+                        </Card.Body>
+                    </Card>
                     <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="rpgdice.png" />
                         <Card.Body>
@@ -57,16 +68,7 @@ export default function RPGhome() {
                             <Button variant="light" href="freddynd">Read</Button>
                         </Card.Body>
                     </Card>
-                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="40k.png" />
-                        <Card.Body>
-                            <Card.Title>Natty Dubs</Card.Title>
-                            <Card.Text>
-                                Ryan converts my favorite Tau rebel...Commander Farsight for D&D play! Full stat sheet and breakdown. October 29th, 2021
-                            </Card.Text>
-                            <Button variant="light" href="freddynd">Read</Button>
-                        </Card.Body>
-                    </Card>
+                    
                     
 
 

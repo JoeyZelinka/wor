@@ -10,6 +10,17 @@ export default function RPGBlogsHome() {
             <Container>
                 <h1>World of Realms RPG Blogs</h1>
                 <div className="cards">
+                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="rpgdice.png" />
+                        <Card.Body>
+                            <Card.Title>We Put the Pain in Campaign</Card.Title>
+                            <Card.Text>
+                                This is the narrative that follows our adventurers in a D&D 2E Campaign in Greyhawk November 11th, 2021
+                            </Card.Text>
+
+                            <Button variant="light" href="campaign">Read</Button>
+                        </Card.Body>
+                    </Card>
                     <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="rpgdice.png" />
                         <Card.Body>
