@@ -7,13 +7,48 @@ export default function Campaign() {
     return (
         <div>
             <RPGnav />
-            
+            <Container>
+                <Row>
+                    <Col>
+                        <div className="campaign2">
+                            <div className="chaptertwo">
+                                <h1>We Put the Paign in Campaign</h1>
+                                <h2>The narrative for our D&D 2E Campaign Chapter 2</h2>
+                                <div className="byline">Mr. L November 17th, 2021</div>
+                                <img src="orlane.jpg" alt=""></img>
+                                <p>Chapter 2 Unwelcome to Orlane:</p>
+                                <p>The group, now four strong traveled through the Dim Forest and out into the fields just to the south of the woods. Early on the fourth afternoon, a cluster of buildings and trees becomes visible, with the stone walls of a temple beyond – Orlane. At the outskirts of Orlane, a large grove of elms is visible to the left, while several wooden buildings border the toad to the right. Passing some of the buildings near the entrance, people tended to watch with suspicion or pull their children inside at the group of mostly demi-humans.</p>
+                                <p>At the first crossroad in the town, the group is met by the local constable, Grover. He interrogates the group as to their business and informs the group that the mayor is unavailable for business. An argument breaks out between Grover and Mireth about the delivery of the letter from Hochoch with Grover reluctantly agreeing to go check with the mayor if he will see the party. With Grover out of sight, the group quickly decides that it’s best to not be around when he returns and heads off into the town to find a place to stay. </p>
+                                <p>They first come across a dairy farmer, Nowell, where Morgrym purchases a supply of his new favorite exotic drink, butter milk. The group gets a little information from the farmer about the local inns and proceeds to the closest one, the Golden Grain Inn. The place isn’t in the best of repair with peeling paint and faded decorations. Morgrym heads inside, but the elves don’t set foot inside as this place is below their standards. The elves, along with Logan, head off to the north towards the only other Inn in the town, the Slumbering Serpent. The innkeepers, Belba and Ollwin greet the group with a friendly wave and invite them inside. Rooms are purchased for the evening and the group discuss matters with Belba about the strange goings on in the town. </p>
+                                <p>She tells the group about people disappearing, then reappearing, somehow altered and not nearly as friendly. She tells of the temple of Merika and how the high priest hasn’t been seen in several weeks, and a new Acolyte has taken over all religious functions.  Her name is Misha Devi.  She also gives a rundown of the local farmers nearby and various local gossip in the area while the group listens in over dinner. Once they have a bead on the local gossip, the group decides that it’s best to check in the Morgrym since he hasn’t been seen for a few hours. They head back towards the Golden Grain but find no evidence of their Dwarven companion and the bar keep insists he has never seen a dwarf. This puts them near the constable and the group is accosted once again.  Another argument breaks out and the group is arrested for disturbing the peace – well, disturbing Grover’s peace mainly, but he is the town law.</p>
+                                <p>The group languishes in a jail cell for a day, then the next night, they are taken from their cells by Grover, 2 deputies and a red robed individual. They are escorted outside where they can see a jail cell attached to a wagon, another red robed driver and a slumped over, unconscious dwarf lying in the cage.  Another argument breaks out between Grover and Mireth while Logan tries to free himself, fails, then sets off running with a deputy chasing after him.  Mireth casts sleep, knocking Grover and the other deputy unconscious, but the 2 red robed cultists are very much in fighting shape. Honri runs over and leaps onto the wagon, while the driver quickly whips the horse into action, causing it to head down the road. Logan and the deputy get into a wrestling match with Logan quickly choking out the deputy using his manacles. Meanwhile, Mireth managed to tackle the cultist by him, but was losing the fight as the cultist had a dagger. The battle was saved when Logan arrived and kicked the cultist into unconsciousness. With the wagon now speeding down the road, Honri managed to climb to the top of the cage, maneuver is way to the front, then with a swinging kick, landed on the seat of the wagon, knocking the cultist off the wagon, breaking his neck on the ground.</p>
+                                <p>Logan and Mireth managed to get the keys from Grover for their manacles, freeing themselves. They then locked up the constable, deputy, and cultist in the jail cells. By the time that Honri returned with the dead cultist and the wagon, the street was mostly cleared up of the incident and the group hid the wagon behind the jailhouse. Morgrym was awakened and it is revealed that he was bushwhacked inside the bar after being drugged with a free drink. Another half-elf and a human are inside other cells. They are released on condition that they help figure out what’s going on with the cultists. Ambrose the half-elven druid and Kobata a human wrestler/entertainer quickly joins up with the group mainly so that they can get out of jail time. The group decided to hole up in the jailhouse till morning and then work out a plan.</p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
             <Container>
                 <Row>
                     <Col>
                         <div className="campaign">
                             <div className="chapterone">
-                                <h1>We Put the Pain in Campaign</h1>
+                                
                                 <h2>The narrative for our D&D 2E Campaign Chapter 1</h2>
                                 <div className="byline">Mr. L November 10th, 2021</div>
                                 <img src="dndmap.png" alt=""></img>

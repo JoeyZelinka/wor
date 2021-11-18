@@ -35,14 +35,28 @@ export default function RPGhome() {
 
             <Container>
                 <div className="cards">
-                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="rpgdice.png" />
                         <Card.Body>
-                            <Card.Title>We Put the Pain in Campaign</Card.Title>
+                            <Card.Title>We Put the Paign in Campaign</Card.Title>
                             <Card.Text>
-                                This is the narrative that follows our adventurers in a D&D 2E Campaign in Greyhawk. Mr. L November 11th, 2021
+                                Chapter 2 of our adventurers in a D&D 2E Campaign in Greyhawk.   
+                                <Card.Text>Mr. L</Card.Text> 
+                                <Card.Text>November 17th, 2021</Card.Text>
                             </Card.Text>
 
+                            <Button variant="light" href="campaign">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="rpgdice.png" />
+                        <Card.Body>
+                            <Card.Title>We Put the Paign in Campaign</Card.Title>
+                            <Card.Text>
+                                This is the narrative that follows our adventurers in a D&D 2E Campaign in Greyhawk. 
+                                <Card.Text>Mr. L</Card.Text> 
+                                <Card.Text>November 11th, 2021</Card.Text>
+                            </Card.Text>
                             <Button variant="light" href="campaign">Read</Button>
                         </Card.Body>
                     </Card>
@@ -57,19 +71,9 @@ export default function RPGhome() {
                             <Button variant="light" href="rpgready">Read</Button>
                         </Card.Body>
                     </Card>
-                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="myersstat.png" />
-                        <Card.Body>
-                            <Card.Title>Natty Dubs</Card.Title>
-                            <Card.Text>
-                                We're wrapping up Spooky Saturdays with the "King of Halloween", Michael Myers! October 30th, 2021
-                            </Card.Text>
+                    
 
-                            <Button variant="light" href="freddynd">Read</Button>
-                        </Card.Body>
-                    </Card>
-                    
-                    
+
 
 
 
@@ -82,12 +86,12 @@ export default function RPGhome() {
             <div className="multiverse">
                 <h3 className="multihead">From Around the Multiverse:</h3>
                 <Container className='multicards'>
-                <Card bg="light" style={{ width: '18rem' }}>
+                    <Card bg="light" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="roll20con2021.png" />
                         <Card.Body>
                             <Card.Title>Bell of Lost Souls:</Card.Title>
                             <Card.Text>
-                            D&D: Strixhaven Preview Coming Next Week At Roll20 Con
+                                D&D: Strixhaven Preview Coming Next Week At Roll20 Con
                             </Card.Text>
                             <p>November 5th, 2021</p>
                             <Button variant="dark" href="https://www.belloflostsouls.net/2021/11/dd-strixhaven-preview-coming-next-week-at-roll20-con.html" target="_blank">Head to BoLS!</Button>
@@ -117,7 +121,7 @@ export default function RPGhome() {
                             <Button variant="dark" href="https://www.enworld.org/threads/there%E2%80%99s-a-tomb-raider-rpg-coming.683637/" target="_blank">Head to En World!</Button>
                         </Card.Body>
                     </Card>
-                    
+
 
                 </Container>
             </div>
