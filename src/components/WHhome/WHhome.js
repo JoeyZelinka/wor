@@ -1,5 +1,5 @@
 import React from 'react'
-import { Badge, Container, Card, Button } from 'react-bootstrap'
+import { Badge, Container, Card, Button, Row, Col } from 'react-bootstrap'
 import { motion } from 'framer-motion';
 import WHnav from "./WHnav";
 import "./WHhome.css";
@@ -36,6 +36,8 @@ export default function WHhome() {
 
                 <Container>
                     <div className="cards">
+                        <Row>
+                            <Col>
                     <Card bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="ssm.jpg" />
                         <Card.Body>
@@ -47,6 +49,8 @@ export default function WHhome() {
                             <Button variant="light" href="/whintrobw">Read</Button>
                         </Card.Body>
                     </Card>
+                    </Col>
+                    <Col>
                         <Card bg="primary" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="ssm.jpg" />
                             <Card.Body>
@@ -58,6 +62,8 @@ export default function WHhome() {
                                 <Button variant="light" href="/whintrobw">Read</Button>
                             </Card.Body>
                         </Card>
+                        </Col>
+                        <Col>
                         <Card bg="primary" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="ssm.jpg" />
                             <Card.Body>
@@ -68,9 +74,8 @@ export default function WHhome() {
                                 <Button variant="light" href="/whintrobw">Read</Button>
                             </Card.Body>
                         </Card>
-
-
-
+</Col>
+</Row>
                     </div>
                 </Container>
 
