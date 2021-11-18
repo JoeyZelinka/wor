@@ -1,6 +1,6 @@
 import React from 'react'
 import WHnav from './WHnav'
-import { Container, Card, Button } from 'react-bootstrap'
+import { Container, Card, Button, Row, Col } from 'react-bootstrap'
 import "./WHBlogsHome.css"
 
 
@@ -11,6 +11,8 @@ export default function WHBlogsHome() {
             <Container>
                 <h1>World of Realms 40k Blogs</h1>
                 <div className="cards">
+<Row>
+    <Col>
                 <Card bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="ssm.jpg" />
                         <Card.Body>
@@ -22,6 +24,8 @@ export default function WHBlogsHome() {
                             <Button variant="light" href="/whintrobw">Read</Button>
                         </Card.Body>
                     </Card>
+                    </Col>
+                    <Col>
                     <Card bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="ssm.jpg" />
                         <Card.Body>
@@ -33,6 +37,8 @@ export default function WHBlogsHome() {
                             <Button variant="light" href="/whintrobw">Read</Button>
                         </Card.Body>
                     </Card>
+                    </Col>
+                    <Col>
                     <Card bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="ssm.jpg" />
                         <Card.Body>
@@ -43,7 +49,8 @@ export default function WHBlogsHome() {
                             <Button variant="light" href="/whintrobw">Read</Button>
                         </Card.Body>
                     </Card>
-
+                 </Col>   
+</Row>
                 </div>
             </Container>
         </div>
