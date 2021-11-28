@@ -68,11 +68,12 @@ export default function NewWor() {
                 <Card.Img variant="top" src="pokemon.png" />
                 <Card.Body>
                     <Card.Title>Pokemon</Card.Title>
-                    <Card.Subtitle>(coming soon)</Card.Subtitle>
+                    <Card.Subtitle>(Now Open!!)</Card.Subtitle>
                     <Card.Text>
-                        Check back for our exclusive Pokemon content and tools!
+                        Gotta catch em...once again, you know the rest. The Pokemon 
+                        realm is covering all things Pokemon Trading Card Game. 
                     </Card.Text>
-                    <Button variant="primary">Coming Soon!</Button>
+                    <Button variant="primary" href="/pokehome">Enter</Button>
                 </Card.Body>
             </Card>
         </motion.div>

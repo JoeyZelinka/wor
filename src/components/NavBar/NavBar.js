@@ -37,7 +37,7 @@ export default function NavBar() {
         <NavDropdown.Item href="mtghome">Magic: the Gathering</NavDropdown.Item>
         <NavDropdown.Item href="rpghome">RPG's</NavDropdown.Item>
         <NavDropdown.Item href="whhome">Warhammer 40,000</NavDropdown.Item>
-        <NavDropdown.Item href="pokemonhome">Pokemon</NavDropdown.Item>
+        <NavDropdown.Item href="pokehome">Pokemon</NavDropdown.Item>
         <NavDropdown.Item href="fabhome">Flesh and Blood TCG</NavDropdown.Item>
       </NavDropdown>
     </Nav>

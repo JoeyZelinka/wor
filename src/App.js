@@ -22,7 +22,8 @@ import WHintroBW from "./components/WHhome/WHblogs/WHintroBW"
 import PokeRPG from "./components/RPGhome/RPGBlogs/PokeRPG";
 import RPGready from "./components/RPGhome/RPGBlogs/RPGready"
 import Campaign from "./components/RPGhome/RPGBlogs/Campaign";
-
+import PokeHome from "./components/Pokemon/PokeHome"
+import Beatdown from "./components/Pokemon/PokeBlogs/Beatdown"
 
 function App() {
 
@@ -96,16 +97,14 @@ function App() {
             <Route path="/campaign">
               <Campaign />
             </Route>
+            <Route path="/pokehome">
+              <PokeHome />
+            </Route>
+            <Route path="/beatdown">
+              <Beatdown />
+            </Route>
 
-            {/* 
             
-            <Route path="/pokemonhome">
-              <PokemonHome />
-            </Route>
-            <Route path="/fabhome">
-              <FABHome />
-            </Route>
-             */}
           </Switch>
         </div>
       </Router>
