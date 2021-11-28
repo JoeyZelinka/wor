@@ -1,0 +1,32 @@
+.pokelogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content:space-between;
+}
+
+.multihead {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+
+.multicards {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content:space-between;
+}
