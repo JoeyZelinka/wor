@@ -6,8 +6,8 @@ export default function MTGnav() {
         <div className="mtgnav">
             <Navbar bg="light">
                 <Container>
-                    <Navbar.Brand href="mtgblogshome">WoR MtG Blogs</Navbar.Brand>
-                    <Navbar.Brand href="mtgmultiverse">Around the Multiverse</Navbar.Brand>
+                    
+                    
                     <Navbar.Brand href="https://wormtgdb.netlify.app/" target="_blank">WoR Deck Builder(beta)</Navbar.Brand>
                     <Navbar.Brand href="mtghome">Meta(coming soon)</Navbar.Brand>
                 </Container>
