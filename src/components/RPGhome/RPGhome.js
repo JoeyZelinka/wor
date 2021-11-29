@@ -1,8 +1,8 @@
 import React from 'react'
 import './RPGhome.css'
 import { motion } from 'framer-motion'
-import { Badge, Card, Container, Button, Row, Col } from 'react-bootstrap'
-import RPGnav from './RPGnav'
+import { Card, Container, Button, Row, Col } from 'react-bootstrap'
+
 
 export default function RPGhome() {
     const variants = {
@@ -27,10 +27,10 @@ export default function RPGhome() {
             initial="hidden"
             animate="show"
             className="rpghome">
-            <RPGnav />
+            
             <h1 className="rpglogo"><img src="rpglogo.png" alt=""></img></h1>
             <h3 className="head">
-                <Badge bg="primary">From our Realm</Badge>
+                
             </h3>
 
             <Container>
@@ -108,48 +108,7 @@ export default function RPGhome() {
             </Container>
 
 
-            <div className="multiverse">
-                <h3 className="multihead">From Around the Multiverse:</h3>
-                <Container className='multicards'>
-                    <Card bg="light" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="roll20con2021.png" />
-                        <Card.Body>
-                            <Card.Title>Bell of Lost Souls:</Card.Title>
-                            <Card.Text>
-                                D&D: Strixhaven Preview Coming Next Week At Roll20 Con
-                            </Card.Text>
-                            <p>November 5th, 2021</p>
-                            <Button variant="dark" href="https://www.belloflostsouls.net/2021/11/dd-strixhaven-preview-coming-next-week-at-roll20-con.html" target="_blank">Head to BoLS!</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card bg="light" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="gruumsh.jpg" />
-                        <Card.Body>
-                            <Card.Title>Bell of Lost Souls:</Card.Title>
-                            <Card.Text>
-                                D&D: An Adventurer’s Guide to Gruums
-
-                            </Card.Text>
-                            <p>October 31st, 2021</p>
-                            <Button variant="dark" href="https://www.belloflostsouls.net/2021/10/dd-an-adventurers-guide-to-gruumsh.html" target="_blank">Head to BoLS!</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card bg="light" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="dnd_news.png" />
-                        <Card.Body>
-                            <Card.Title>En World:</Card.Title>
-                            <Card.Text>
-                                There’s a TOMB RAIDER RPG Coming!
-
-                            </Card.Text>
-                            <p>October 31st, 2021</p>
-                            <Button variant="dark" href="https://www.enworld.org/threads/there%E2%80%99s-a-tomb-raider-rpg-coming.683637/" target="_blank">Head to En World!</Button>
-                        </Card.Body>
-                    </Card>
-
-
-                </Container>
-            </div>
+            
 
         </motion.div>
     )
