@@ -37,6 +37,20 @@ export default function WHhome() {
                 <Container>
                     <div className="cards">
                         <Row>
+                        <Col>
+                    <Card bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="ssm.jpg" />
+                        <Card.Body>
+                            <Card.Title>Bellz of War</Card.Title>
+                            <Card.Text>
+                                Warhammer 40k: The Adepta Sororitas.
+                                Tyler brings the baddest women of the Imperium to the light. Sisters of Battle primer with starter list!
+                            </Card.Text>
+                            <Button variant="light" href="/whintrobw">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    </Col>
+                    
                             <Col>
                     <Card bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="ssm.jpg" />
