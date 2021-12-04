@@ -36,6 +36,21 @@ export default function RPGhome() {
             <div className="cards">
             <Container>
                 <Row className="toprow">
+                <Col>
+                <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="pokemon.png" />
+                        <Card.Body>
+                            <Card.Title>Gotta Catch a Beatdown </Card.Title>
+                            <Card.Text>
+                                   John is bringing the beatdown with a deck aptly titled Power Outage. Complete breakdown and walk through.
+                                <Card.Text>John Kirk @pokehublive5</Card.Text> 
+                                <Card.Text>December 4th, 2021</Card.Text>
+                            </Card.Text>
+
+                            <Button variant="light" href="beatdown2">Read</Button>
+                        </Card.Body>
+                    </Card>
+                    </Col>
                     <Col>
                 <Card className="card" bg="primary" style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="pokemon.png" />

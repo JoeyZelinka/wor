@@ -8,7 +8,7 @@ import MtgHome from "../src/components/MtgHome/MtgHome";
 import RPGhome from "../src/components/RPGhome/RPGhome";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
-import WoRblog from "./components/WoRblog/WoRblog"
+import WoRblog from "./components/WoRblog/WoRblog";
 import MtgBlogsHome from "./components/MtgHome/MtgBlogsHome";
 import MtgMultiverse from "./components/MtgHome/MtgMultiverse";
 import RPGBlogsHome from "./components/RPGhome/RPGBlogsHome";
@@ -18,14 +18,16 @@ import FreddyND from "./components/RPGhome/RPGBlogs/FreddyND";
 import WHhome from "./components/WHhome/WHhome";
 import WHBlogsHome from "./components/WHhome/WHBlogsHome";
 import WHMultiverse from "./components/WHhome/WHMultiverse";
-import WHintroBW from "./components/WHhome/WHblogs/WHintroBW"
+import WHintroBW from "./components/WHhome/WHblogs/WHintroBW";
 import PokeRPG from "./components/RPGhome/RPGBlogs/PokeRPG";
-import RPGready from "./components/RPGhome/RPGBlogs/RPGready"
+import RPGready from "./components/RPGhome/RPGBlogs/RPGready";
 import Campaign from "./components/RPGhome/RPGBlogs/Campaign";
-import PokeHome from "./components/Pokemon/PokeHome"
-import Beatdown from "./components/Pokemon/PokeBlogs/Beatdown"
+import PokeHome from "./components/Pokemon/PokeHome";
+import Beatdown from "./components/Pokemon/PokeBlogs/Beatdown";
 import Campaign3 from "./components/RPGhome/RPGBlogs/Campaign3";
-import ADMech from "./components/WHhome/WHblogs/ADMech"
+import ADMech from "./components/WHhome/WHblogs/ADMech";
+import Beatdown2 from "./components/Pokemon/PokeBlogs/Beatdown2";
+
 
 function App() {
 
@@ -110,6 +112,9 @@ function App() {
             </Route>
             <Route path="/admech">
               <ADMech />
+            </Route>
+            <Route path="/beatdown2">
+              <Beatdown2 />
             </Route>
 
             

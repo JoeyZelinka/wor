@@ -187,10 +187,6 @@ export default function RPGhome() {
 
                 </div>
             </Container>
-
-
-
-
         </motion.div>
     )
 }
