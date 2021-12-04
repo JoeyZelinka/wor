@@ -24,6 +24,7 @@ import RPGready from "./components/RPGhome/RPGBlogs/RPGready"
 import Campaign from "./components/RPGhome/RPGBlogs/Campaign";
 import PokeHome from "./components/Pokemon/PokeHome"
 import Beatdown from "./components/Pokemon/PokeBlogs/Beatdown"
+import Campaign3 from "./components/RPGhome/RPGBlogs/Campaign3";
 
 function App() {
 
@@ -102,6 +103,9 @@ function App() {
             </Route>
             <Route path="/beatdown">
               <Beatdown />
+            </Route>
+            <Route path="/campaign3">
+              <Campaign3 />
             </Route>
 
             
