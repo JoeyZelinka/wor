@@ -1,0 +1,70 @@
+import React from 'react'
+import '../WHblogs/WHblog.css'
+import { Container, Col, Row } from 'react-bootstrap'
+import WHnav from '../WHnav'
+export default function WHintroBW() {
+    return (
+        <div>
+            <WHnav />
+            <Container>
+                <Row>
+                    <Col>
+                        <div className="whblog">
+                            <div className="admech">
+                                <h1>Bellz of War</h1>
+                                <h2>Warhammer 40k: Adeptus Mechanicus</h2>
+                                <p><em>Adeptus Mechanicus - The Worshippers of the Omnissiah</em></p>
+                                <div className="byline">By Tyler Leavitt December 4th, 2021</div>
+                                <img src="skiitari.jpg" alt=""></img>
+                                <p><em>Skitarii Rangers hold the line against an unknown foe; artist is unknown.</em></p>
+                                <p>The Mechanicus is as old as the Imperium of Man itself, if not older. The modern day Adeptus Mechanicus were found by the Emperor of Mankind on the forge world of Mars. The Emperor needed the supplies, resources, and materiel that the Mechanicus could produce from this mighty planet-sized forge, but there was an issue: the Mechanicus had no interest in the Emperor’s vision for humanity. The Mechanicus is what is commonly referred to as a “machine-cult” in the 40k universe; they believe that each and every piece of human technology has a machine spirit in it that dictates how the technology acts. This could be from a simple laspistol, to a mighty battleship. To some extent, they are right. There have been many cases where vehicles or ships will “act” on their own despite their crews being slain or rendered incapable. However, getting back to history, the Emperor was faced with an issue. The Emperor himself believed that religion only led people astray from the true path of humanity, and that science and reasoning was the answer. Yet with the Mechanicus, he made a deal with them; the Mechanicus effectively acts as their own separate entity within the Imperium. They are allowed to continue to worship the Omnissiah, their Machine God. In return, they supply the Emperor and the Imperium with all the necessary pieces of technology they would need.</p>
+                                <p>This would prove as the precedent for any interactions with the Mechanicus going into the future. Even after the Emperor was interred into the Golden Throne and the Imperial Cult was created, the religion believing the Emperor is the one true god in the universe, the Mechanicus still is allowed to worship the Omnissiah. This is all because the Mechanicus operates as its own entity, they have their own military, navy, planets, workforce, etc. In times of need, the Imperium calls upon the Mechanicus to aid them directly in their wars, but oftentimes the Mechanicus focuses on being the industrial backing to the Imperium. Nearly every forge world is under their control, with forge worlds being massive planet-sized factories. The Mechanicus keeps the worlds running, so long as the Imperium provides them the resources they need. In turn, the Mechanicus creates everything the Imperium needs.</p>
+                                <p>However, not all is well and good with the Mechanicus. Because of their beliefs in the Omnissiah, it stifles any new technological innovations within the Imperium. As such, technology has been on the decline for several millenia within the Imperium, with the knowledge lost to create battleships or titans, alongside many others. This was only changed by Archmagos Dominus Belisarius Cawl, who helped in the creation of the Primaris Space Marines and all technology used by the Primaris. Like with the past factions, I’m skating by a lot of lore here. If you want to learn more, please look it up online! But for now, let’s take a look into the Mechanicus’s gameplays</p>
+                                <img src="skiirangers.png" alt=""></img>
+                                <p>Here we have the Mechanicus’s baseline infantry choice, the Skitarii Rangers. Their statline is very comparable with the Sisters of Battle; the only difference is a 4+ save instead of a 3+. Also like the Sisters, they have a 6+ invulnerable save naturally, which helps give them an extra bit of toughness, though not a whole lot. The biggest difference in terms of stats is going to be their base weapon, the Galvanic Rifle. Being a heavy weapon, it’s not a very mobile weapon option. However 2 shots at 30” range, odds are you can out range most factions’ infantry with it. Strength 4 is about average, but having -1AP helps a lot in delivering their damage. Also like with the Battle Sisters, the Skitarii can go up to 20 models in one squad, and can take up to 3 special weapons. Alternatively, you can also go with the Skitarii Vanguards, which are equipped with closer ranged Radium Carbines for weapons: 18” range, Assault 3, strength 3, 1 damage, but it automatically wounds on a hit roll of 6.</p>
+                                <p>So, what do these stats tell us about the Mechanicus at large? They can be a bit glass cannon-y, like the Sisters of Battle. However, their biggest trait is that they’re specialized for specific tasks, as you can already imagine. The Skitarii Rangers are an insanely good defensive tool as a baseline infantry unit, and the Skitarii Vanguards, while not having the strongest weapons, are still good at pushing the offensive. To top it all off, the Mechanicus have a few special abilities, the Canticles of the Omnissiah, and Doctrina Imperatives.</p>
+                                <p>Both of these abilities offer situational buffs to various units to your army. As you could see above, the Skitarii are able to use the Doctrina Imperatives, and many other units that are essentially “robots” in the Mechanicus army have this ability, such as Ruststalkers. These Imperatives give your units a buff, while also applying a debuff. For example, the Protector Imperative provides a +1BS at the cost of a -1WS. This means that your Rangers could be hitting on a 2+! Or another choice, gaining +1 save, but losing 3” of movement. The Doctrina Imperatives are situational, but they can provide your army with a massive boost if timed well. For other units in your army that are more “sentient,” such as your Techpriests, you have the Canticles of the Omnissiah. Unlike the Doctrina, these are pure buffs, once again situational. Invocation of Machine Might grants an extra D6 to advance and charge rolls and you discard the lowest, giving these units extra move or the ability to close into melee with an enemy. Or you could use Litany of the Electromancer, giving all melee attacks a -1 to hit your unit. Both Doctrina and Canticles will be important to play the Mechanicus well, so learn and memorize them!</p>
+                                <p>All in all, the Mechanicus are a faction that prides itself on having strong specialized units over jack of all trades. You’ll find that your units are best in either melee or shooting, rather than being alright in both. This means that your units are oftentimes going to be better than other factions in that designated role; your Rangers should be able to easily beat a Space Marine squad at range, but if they get into melee, you might be in trouble. That’s where the Doctrine and Canticles come into play. These can offer your units more specialization, or give them a bonus in something they’re not good at. An extra +1BS is extremely powerful, as you’re almost always hitting with your Rangers. This can devastate any enemy squad before they could even get into range. Alternatively, give your Rangers +1 save to help keep them alive if they’re caught out of position or flanked by an enemy unit. Use these abilities to your advantage, and you’ll learn why the Mechanicus is so strong as of the time of writing this article in 9th Edition.</p>
+                                <img src="mechknight.jpg" alt=""></img>
+                                <p><em>A Mechanicus and Knight army painted up. Artist is Seyni N’Diaye.</em></p>
+                                <p>One last note before I move onto the list, and that’s to do with Imperial Knights. Knights are technically their own faction in 9th edition, however personally, I would treat them as heavy support/lords of war with the Mechanicus. Truth is, the Knights don’t have much going for them without infantry support. They’re very strong on their own, but they lack any objective holding capability and can be easily overwhelmed by an enemy force. If you want to go for Knights or Mechanicus, consider running both together. However, onto the list! Like with the Sisters, I’ll only be providing one list this time around. However, the Mechanicus have a lot more options than the Sisters do, so feel free to experiment around!</p>
+                                <p>Adeptus Mechanicus Army (1000pts):</p>
+                                <p>Forge World: Metalica</p>
+                                <p>For your Forge World, I chose to go with Metalica. I think having the ability to move without any penalty for heavy weapons is extremely strong, especially with the Skitarii Rangers. Alternatively, Mars and Lucius were both good choices to me. Mars gives your Skitarii the Canticles ability which will increase their power as well, and Lucius gives an extra +1 save to any damage 1 weapons hitting you. Both of these are strong in their own right, but I chose to go with Metalica and focus more on heavy hitting Rangers, as you’ll see below.</p>
+                                <p>HQ: Tech-Priest Manipulus, 70pts; Magnarail lance, Warlord Trait: Masterwork Bionics</p>
+                                <p>I’ll be perfectly honest, I wasn’t sure what the best warlord trait would be on the Tech-Priest here. I chose to go with the Masterwork Bionics as it provides some bonus survivability, but if you think you can make better use of a different one, go ahead. As for the weapon option, the Magnarail Lance will keep the Tech-Priest near the backline of your army, keeping them out of harms’ way. Use them to take out heavy armor targets, or as a glorified repairer for your vehicles in this list.</p>
+                                <p>Troops: 4 Skitarii Rangers squads, 90pts; 1 Ranger Alpha with Galvanic Rifle, 8 Rangers with Galvanic Rifles, 1 Ranger with an Arc Rifle</p>
+                                <p>Rangers with Galvanic Rifles, 1 Ranger with an Arc Rifle</p>
+                                <p>As I said above, I went pretty heavily into Skitarii. This is 40 models of Rangers, all equipped with the heavy hitting Galvanic Rifles to help chew away at enemy targets. I also threw in an Arc Rifle for some anti-vehicle firepower as well, as Mechanicus absolutely destroy vehicles.</p>
+                                <p>Elites: 2 Sicarian Ruststalkers squads, 85pts; 1 Ruststalker Princeps (Razor), 4 Ruststalkers with Razor/Chordclaw)</p>
+                                <p>I went rather basic here with the elites. The Ruststalkers act as some fast melee troops, so you can use them to take and hold objectives while your Rangers help screen away enemies, or use them to protect your flanks.</p>
+                                <p>Fast Attack: 2 Ironstrider Ballistarii, 65pts; both equipped with Twin Cognis Autocannons. 1 Serberys Sulphurhounds, 110pts; 1 Alpha, 4 Sulphurhounds with Pistols</p>
+                                <p>Rather than using any heavy support option, I chose to go with 2 of these Ironstriders. Only one look is needed at their weapons to understand why; a mighty Assault 6, S7, -1AP, 2D autocannon, this cannon will decimate just about everything but the toughest vehicles. As for the Sulphurhounds, I chose these guys to use as a “cavalry” option. They’re pretty good in melee, especially when you take into account their Rad-saturation aura ability. Their weapons also aren’t that bad either, so they should do quite well for you.</p>
+                                <p>Flyer: 1 Archaeocopter Stratorapter, 160pts</p>
+                                <p>I tricked you! Usually I always try to provide one transport option in each list I build. However, with the Mechanicus, their transport is rather underwhelming. Instead, I chose to go with this flyer option instead. Use this as a heavy support flanking unit; the main firepower it offers is with the Twin Cognis Lascannons. S9, -3AP, and D3+3 damage can destroy any heavy targets, while the Heavy Phosphor Blaster will offer something against heavy infantry. The only trick here will be keeping this flyer alive!</p>
+                                <img src="sulphound.jpg" alt=""></img>
+                                <p><em>Serberys Sulphurhounds charge an enemy line. Artist is unknown.</em></p>
+                                <p>That'll cover it this week for the Mechanicus. The Mechanicus aren’t one of my personal favorite factions, as I’m not a fan of their aesthetics. However, there’s no denying that their units are pretty strong currently in 40k. Next week, we’ll be covering the last Imperium faction: the Custodes. Until then, may the dice gods favor you!</p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+
+
+
+
+    )
+}
