@@ -36,6 +36,22 @@ export default function RPGhome() {
             <Container>
                 <div className="cards">
                     <Row className="toprow">
+
+                        <Col>
+                            <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="rpgdice.png" />
+                                <Card.Body>
+                                    <Card.Title>We Put the Paign in Campaign</Card.Title>
+                                    <Card.Text>
+                                        Chapter 4 of our adventurers in a D&D 2E Campaign in Greyhawk. Jailbreak!
+                                        <Card.Text>Mr. L</Card.Text>
+                                        <Card.Text>January 1st, 2022</Card.Text>
+                                    </Card.Text>
+
+                                    <Button variant="light" href="campaign4">Read</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                         <Col>
                             <Card className="card" bg="primary" style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="rpgdice.png" />
@@ -80,6 +96,10 @@ export default function RPGhome() {
                                 </Card.Body>
                             </Card>
                         </Col>
+                    </Row>
+
+
+                    <Row className="row2">
                         <Col>
                             <Card className="card" bg="primary" style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="rpgdice.png" />
@@ -95,10 +115,6 @@ export default function RPGhome() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                    </Row>
-
-
-                    <Row className="row2">
                         <Col>
                             <Card className="card" bg="primary" style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="rpgdice.png" />
@@ -136,47 +152,48 @@ export default function RPGhome() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
-                            <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="pirate.png" />
-                                <Card.Body>
-                                    <Card.Title>Natty Dubs</Card.Title>
-                                    <Card.Text>
-                                        Ryan brings us D&D on the high seas! Pirates: a D&D One Shot (5e). A complete tutorial with everything you need to run this adventure! October 25th, 2021
-                                    </Card.Text>
-                                    <Button variant="light" href="freddynd">Read</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="jasonvorhees.png" />
-                                <Card.Body>
-                                    <Card.Title>Natty Dubs</Card.Title>
-                                    <Card.Text>
-                                        Jason Vorhees gets a D&D makeover! It doesn't matter how fast you run! He's going to get you! October 23rd, 2021
-                                    </Card.Text>
-                                    <Button variant="light" href="freddynd">Read</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <Card className="card" bg="primary" style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src="freddy.jpg" />
-                                <Card.Body>
-                                    <Card.Title>Natty Dubs</Card.Title>
-                                    <Card.Text>
-                                        Ryan converts Freddy Kreuger to invade your D&D dreams! Full stat sheet and use suggestions! October 16th, 2021
-                                    </Card.Text>
-                                    <Button variant="light" href="freddynd">Read</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
+                       </Row>
+
+                            <Row className="row3">
+                                <Col>
+                                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                                        <Card.Img variant="top" src="pirate.png" />
+                                        <Card.Body>
+                                            <Card.Title>Natty Dubs</Card.Title>
+                                            <Card.Text>
+                                                Ryan brings us D&D on the high seas! Pirates: a D&D One Shot (5e). A complete tutorial with everything you need to run this adventure! October 25th, 2021
+                                            </Card.Text>
+                                            <Button variant="light" href="freddynd">Read</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+
+                                <Col>
+                                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                                        <Card.Img variant="top" src="jasonvorhees.png" />
+                                        <Card.Body>
+                                            <Card.Title>Natty Dubs</Card.Title>
+                                            <Card.Text>
+                                                Jason Vorhees gets a D&D makeover! It doesn't matter how fast you run! He's going to get you! October 23rd, 2021
+                                            </Card.Text>
+                                            <Button variant="light" href="freddynd">Read</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+
+                                <Col>
+                                    <Card className="card" bg="primary" style={{ width: '18rem' }}>
+                                        <Card.Img variant="top" src="freddy.jpg" />
+                                        <Card.Body>
+                                            <Card.Title>Natty Dubs</Card.Title>
+                                            <Card.Text>
+                                                Ryan converts Freddy Kreuger to invade your D&D dreams! Full stat sheet and use suggestions! October 16th, 2021
+                                            </Card.Text>
+                                            <Button variant="light" href="freddynd">Read</Button>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            </Row>
 
 
 
@@ -185,8 +202,8 @@ export default function RPGhome() {
 
 
 
-                </div>
-            </Container>
-        </motion.div>
-    )
+                        </div>
+                    </Container>
+                </motion.div>
+                )
 }

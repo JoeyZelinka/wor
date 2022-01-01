@@ -37,6 +37,20 @@ export default function WHhome() {
             <Container>
                 <div className="cards">
                     <Row className="toprow">
+                    <Col>
+                            <Card bg="primary" style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="ssm.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Bellz of War</Card.Title>
+                                    <Card.Text>
+                                        Warhammer 40k: Adeptus Custodes.
+                                        Tyler regales us with the faction with the hardest models to get off the board, Custodes! 1000pts. = like 4 models...
+                                        
+                                    </Card.Text>
+                                    <Button variant="light" href="/custodes">Read</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                         <Col>
                             <Card bg="primary" style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="ssm.jpg" />
@@ -77,6 +91,8 @@ export default function WHhome() {
                                 </Card.Body>
                             </Card>
                         </Col>
+                    </Row>
+                    <Row className="row2">
                         <Col>
                             <Card bg="primary" style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="ssm.jpg" />
@@ -90,8 +106,6 @@ export default function WHhome() {
                                 </Card.Body>
                             </Card>
                         </Col>
-                    </Row>
-                    <Row className="row2">
                         <Col>
                             <Card bg="primary" style={{ width: '18rem' }}>
                                 <Card.Img variant="top" src="ssm.jpg" />
