@@ -29,6 +29,9 @@ import ADMech from "./components/WHhome/WHblogs/ADMech";
 import Beatdown2 from "./components/Pokemon/PokeBlogs/Beatdown2";
 import MonoDub from "./components/MtgHome/MtgBlogs/MonoDub";
 import BoardWipe1 from "./components/MtgHome/MtgBlogs/BoardWipe1";
+import Campaign4 from "./components/RPGhome/RPGBlogs/Campaign4";
+import Custodes from "./components/WHhome/WHblogs/Custodes";
+
 
 function App() {
 
@@ -123,6 +126,12 @@ function App() {
             <Route path="/boardwipe1">
               <BoardWipe1 />
             </Route>
+            <Route path="/campaign4">
+              <Campaign4 />
+            </Route>
+            <Route path="/custodes">
+              <Custodes />
+            </Route> 
             
           </Switch>
         </div>
