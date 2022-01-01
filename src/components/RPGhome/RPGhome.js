@@ -43,7 +43,7 @@ export default function RPGhome() {
                                 <Card.Body>
                                     <Card.Title>We Put the Paign in Campaign</Card.Title>
                                     <Card.Text>
-                                        Chapter 4 of our adventurers in a D&D 2E Campaign in Greyhawk. Jailbreak!
+                                        Chapter 4 of our adventurers in a D&D 2E Campaign in Greyhawk. Time to punch the Cult in the faces!
                                         <Card.Text>Mr. L</Card.Text>
                                         <Card.Text>January 1st, 2022</Card.Text>
                                     </Card.Text>
